@@ -1,0 +1,127 @@
+{
+	"background": [
+		"I&apos;m currently enrolled at <a href='https://www.informatics.edu.ph/' target='_blank' className='text-link'>Informatics Baguio</a> to explore my passion in Information Technology. From here, I learned the concepts of programming and became a self-taught student to pursue a career in web development.",
+		"As an aspiring web developer, learning something new is my hobby, and I always make myself motivated and productive every day. I enjoy exploring technologies, libraries, tricks, techniques, and best practices to build my projects to run efficiently with beautiful, readable, clean code. I dream of travelling the world someday.",
+		"<span className='text-emphasize'>When I&apos;m not in front of a computer screen</span>, I&apos;m probably doing household chores, exercising, and petting my dogs."
+	],
+	"skills": [
+		{
+			"skillCategory": "languages",
+			"skillItems": ["JavaScript (ES5 & ES6+)", "Node JS", "HTML5", "CSS3"]
+		},
+		{
+			"skillCategory": "frameworks",
+			"skillItems": [
+				"React JS",
+				"Next JS",
+				"Express JS",
+				"Bootstrap",
+				"Reactstrap",
+				"Ant Design"
+			]
+		},
+		{
+			"skillCategory": "tools",
+			"skillItems": [
+				"Git & Github",
+				"Postman",
+				"Chrome DevTools",
+				"Adobe Photoshop",
+				"VS Code",
+				"GitKraken"
+			]
+		}
+	],
+	"projects": [
+		{
+			"project_name": "DevConnector",
+			"description": "One of my projects I built after finishing a udemy course. DevConnector is a fullstack social media application for developers",
+			"photo": "devconnector.png",
+			"techs_used": [
+				"JavaScript",
+				"React JS",
+				"Node JS",
+				"Express JS",
+				"MongoDB"
+			],
+			"html_url": "https://crom-devconnector.herokuapp.com/",
+			"repo_url": "https://github.com/cromueloliver02/devconnector-final"
+		},
+		{
+			"project_name": "MongoGin",
+			"description": "A fullstack contact management web application built with the MERN (MongoGin, Express, React, Node) Stack.",
+			"photo": "mongogin.png",
+			"techs_used": [
+				"JavaScript",
+				"Bootstrap",
+				"React JS",
+				"Node JS",
+				"Express JS",
+				"MongoDB"
+			],
+			"html_url": "https://mongogin.herokuapp.com/home",
+			"repo_url": "https://github.com/cromueloliver02/mongogin-contact-manager"
+		},
+		{
+			"project_name": "Shopping List",
+			"description": "A simple MERN stack shopping list app that I built while learning the Reactstrap. Reactstrap is a great library to use bootstrap javascript components in React JS.",
+			"photo": "shopping-list.png",
+			"techs_used": [
+				"JavaScript",
+				"Reactstrap",
+				"React JS",
+				"Node JS",
+				"Express JS",
+				"MongoDB"
+			],
+			"html_url": "https://crom-mern-shopping-list-app.herokuapp.com/",
+			"repo_url": "https://github.com/cromueloliver02/shoping-list-reactstrap"
+		},
+		{
+			"project_name": "TodoList",
+			"description": "A simple fullstack todo list application.",
+			"photo": "todolistapp.png",
+			"techs_used": [
+				"JavaScript",
+				"Bootstrap",
+				"React JS",
+				"Node JS",
+				"Express JS",
+				"MongoDB"
+			],
+			"html_url": "https://crom-todolistapp.herokuapp.com/",
+			"repo_url": "https://github.com/cromueloliver02/todo-list-app"
+		},
+		{
+			"project_name": "CoronaDot",
+			"description": "CoronaDot is a web application that tracks the current Covid-19 cases all over the globe.",
+			"photo": "coronadot.png",
+			"techs_used": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Bootstrap",
+				"React JS",
+				"API"
+			],
+			"html_url": "https://coronadot.netlify.app/",
+			"repo_url": "https://github.com/cromueloliver02/coronadot"
+		},
+		{
+			"project_name": "BT Shoes",
+			"description": "BT Shoes is a shoe ecommerce web design with clean minimalistic approach.",
+			"photo": "bt-shoes.png",
+			"techs_used": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+			"html_url": "https://bt-shoes.netlify.app/",
+			"repo_url": "https://github.com/cromueloliver02/BT_Shoes"
+		},
+		{
+			"project_name": "Royalotel",
+			"description": "Royalotel is a hotel landing page website.",
+			"photo": "royalotel.png",
+			"techs_used": ["HTML", "CSS", "SASS", "JavaScript", "Bootstrap"],
+			"html_url": "https://royalotel.netlify.app/",
+			"repo_url": "https://github.com/cromueloliver02/Royalotel"
+		}
+	]
+}

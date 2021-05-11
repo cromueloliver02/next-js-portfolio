@@ -1,0 +1,20 @@
+.skillCategory,
+.projectTitle {
+	font-family: 'Apercu', sans-serif;
+	font-weight: bolder !important;
+	font-style: normal;
+	margin-top: 0.25rem;
+	font-weight: 700;
+	color: #2a2a3a !important;
+	text-transform: uppercase;
+}
+
+/* .project-title:hover i {
+	margin-left: 0.5rem;
+	transition: 0.25s;
+} */
+
+.skillItem {
+	margin-bottom: 0;
+	font-size: 0.95rem;
+}

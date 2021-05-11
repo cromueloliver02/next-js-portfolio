@@ -1,65 +1,49 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import { Fragment, useContext, useEffect } from 'react';
+import AOS from 'aos';
+import Spinner from '../components/Spinner';
+import Header from '../components/Header';
+import Background from '../components/Background';
+import Skills from '../components/skills/Skills';
+import Projects from '../components/projects/Projects';
+import globalContext from '../context/globalState/globalContext';
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const Home = () => {
+	const { loading, cancelLoading } = useContext(globalContext);
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+	useEffect(() => {
+		// scroll to top
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+		if (loading) {
+			document.body.style.overflowY = 'hidden';
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+			AOS.init({
+				startEvent: 'load'
+			});
+		} else {
+			document.body.style.overflowY = 'scroll';
+		}
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+		setTimeout(() => {
+			cancelLoading();
+		}, 1000);
+	}, [loading]);
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+	return (
+		<Fragment>
+			<Head>
+				<title>Cromuel D. Barut</title>
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+			{loading && <Spinner />}
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
-}
+			<Header />
+			<Background />
+			<Skills />
+			<Projects />
+		</Fragment>
+	);
+};
+export default Home;

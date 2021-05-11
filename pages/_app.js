@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import GlobalState from '../context/globalState/GlobalState';
+import Layout from '../components/Layout';
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+	return (
+		<GlobalState>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</GlobalState>
+	);
+};
 
-export default MyApp
+export default MyApp;
