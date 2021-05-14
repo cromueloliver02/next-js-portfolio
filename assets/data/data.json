@@ -1,4 +1,5 @@
 {
+	"briefBackground": "I'm <span style='font-family: Apercu Bold, sans-serif;'>Cromuel Barut</span>, a web developer during the day and at the same time, a 3rd year college IT student during the night. I love researching, solving programming problems, learning technologies and I enjoy coding challenges.",
 	"background": [
 		"I&apos;m currently enrolled at <a href='https://www.informatics.edu.ph/' target='_blank' className='text-link'>Informatics Baguio</a> to explore my passion in Information Technology. From here, I learned the concepts of programming and became a self-taught student to pursue a career in web development.",
 		"As a web developer, learning something new is my hobby, and I always make myself motivated and productive every day. I enjoy exploring technologies, libraries, tricks, techniques, and best practices to build my projects to run efficiently with beautiful, readable, clean code. I always make myself better than yesterday.",
@@ -15,9 +16,9 @@
 				"React JS",
 				"Next JS",
 				"Express JS",
+				"Ant Design",
 				"Bootstrap",
-				"Reactstrap",
-				"Ant Design"
+				"Reactstrap"
 			]
 		},
 		{
