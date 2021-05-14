@@ -9,8 +9,10 @@ const Header = () => {
 
 					<h1 className='showcase-text'>
 						I'm <span className={styles.showcaseName}>Cromuel Barut</span>
-						, a web developer skilled in React, Node, Express, MongoDB and
-						other stuffs.
+						, a web developer at day time then a 3rd year college IT
+						student at night time. I love researching, solving programming
+						problems and learning technologies and I enjoy coding
+						challenges.
 					</h1>
 
 					<h5 className='mt-5'>
