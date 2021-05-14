@@ -4,7 +4,7 @@ const Background = () => {
 	return (
 		<section
 			id='background'
-			className='py-5'
+			className='background bg-light py-5'
 			data-aos='fade-in'
 			data-aos-offset='250'
 			data-aos-once='true'

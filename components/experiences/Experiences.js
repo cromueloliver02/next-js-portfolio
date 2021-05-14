@@ -1,10 +1,10 @@
-import SkillItem from './SkillItem';
+import ExperienceItem from '../experiences/ExperienceItem';
 
-const { skills } = require('../../assets/data/data.json');
+const { experiences } = require('../../assets/data/data.json');
 
 const Skills = () => {
 	return (
-		<section id='skills' className='skills py-5'>
+		<section id='experiences' className='experiences bg-light py-5'>
 			<div className='container py-5'>
 				<div
 					className='row'
@@ -13,12 +13,12 @@ const Skills = () => {
 					data-aos-once='true'
 				>
 					<div className='col-md-3 mr-5'>
-						<h6 className='section-title'>SKILLS</h6>
+						<h6 className='section-title'>EXPERIENCES</h6>
 					</div>
 					<div className='col-md-7'>
 						<div className='row'>
-							{skills.map((skill, idx) => (
-								<SkillItem key={idx} skill={skill} />
+							{experiences.map((exp, idx) => (
+								<ExperienceItem key={idx} exp={exp} />
 							))}
 						</div>
 					</div>

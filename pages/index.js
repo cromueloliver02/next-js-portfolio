@@ -5,6 +5,7 @@ import Spinner from '../components/Spinner';
 import Header from '../components/Header';
 import Background from '../components/Background';
 import Skills from '../components/skills/Skills';
+import Experiences from '../components/experiences/Experiences';
 import Projects from '../components/projects/Projects';
 import globalContext from '../context/globalState/globalContext';
 
@@ -42,6 +43,7 @@ const Home = () => {
 			<Header />
 			<Background />
 			<Skills />
+			<Experiences />
 			<Projects />
 		</Fragment>
 	);

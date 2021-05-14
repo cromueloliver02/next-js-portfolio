@@ -7,10 +7,10 @@ const Header = () => {
 		<header id='home' className='bg-light'>
 			<div className='container'>
 				<div className={styles.showcaseContent}>
-					<h1 className='showcase-text mb-5'>Hello!</h1>
+					<h1 className={`${styles.showcaseText} mb-5`}>Hello! 👋</h1>
 
 					<h1
-						className='showcase-text'
+						className={styles.showcaseText}
 						dangerouslySetInnerHTML={{ __html: briefBackground }}
 					/>
 

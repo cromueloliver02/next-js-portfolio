@@ -5,7 +5,7 @@ const Footer = () => {
 		<footer className='bg-light py-4'>
 			<div className='container'>
 				<p className='text-center mb-0'>
-					Developed by Cromuel Barut | &copy;2021
+					Developed by Cromuel Barut | &copy;{currentYear()}
 				</p>
 			</div>
 		</footer>

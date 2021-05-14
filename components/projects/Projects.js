@@ -1,10 +1,10 @@
 import ProjectItem from './ProjectItem';
 
-const projects = require('../../assets/data/data.json').projects;
+const { projects } = require('../../assets/data/data.json');
 
 const Projects = () => {
 	return (
-		<section id='projects' className='py-5'>
+		<section id='projects' className='projects py-5'>
 			<div className='container py-5'>
 				<div className='row'>
 					<div

@@ -1,0 +1,9 @@
+.position {
+	font-size: 1.75rem;
+	font-family: 'Apercu Bold', sans-serif;
+	margin-bottom: 1rem;
+}
+
+.confidential {
+	color: #999;
+}

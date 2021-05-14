@@ -71,3 +71,17 @@ h3 {
 	text-transform: uppercase;
 	margin-top: 0.25rem;
 }
+
+@media (max-width: 768px) {
+	.section-title {
+		text-align: left;
+		margin-bottom: 1.5rem;
+	}
+
+	.background .col-md-7,
+	.skills .col-md-7,
+	.experiences .col-md-7,
+	.projects .col-md-7 {
+		margin-left: 1.5rem !important;
+	}
+}

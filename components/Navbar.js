@@ -1,42 +1,57 @@
-const Navbar = () => {
-	return (
-		<nav className='navbar navbar-expand-md navbar-light fixed-top bg-light'>
-			<div className='container'>
-				<button
-					className='navbar-toggler'
-					data-toggle='collapse'
-					data-target='#navbar-menu'
-				>
-					<span className='navbar-toggler-icon'></span>
-				</button>
+import { useState } from 'react';
+import {
+	Collapse,
+	Container,
+	Navbar,
+	NavbarToggler,
+	NavbarBrand,
+	Nav,
+	NavItem,
+	NavLink
+} from 'reactstrap';
 
-				<div id='navbar-menu' className='collapse navbar-collapse'>
-					<ul className='navbar-nav ml-auto'>
-						<li className='nav-item ml-4'>
-							<a href='#home' className='nav-link'>
-								Home
-							</a>
-						</li>
-						<li className='nav-item ml-4'>
-							<a href='#background' className='nav-link'>
-								Background
-							</a>
-						</li>
-						<li className='nav-item ml-4'>
-							<a href='#skills' className='nav-link'>
-								Skills
-							</a>
-						</li>
-						<li className='nav-item ml-4'>
-							<a href='#projects' className='nav-link'>
-								Projects
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+import styles from '../styles/Navbar.module.css';
+
+const AppNavbar = () => {
+	const [isOpen, toggle] = useState(false);
+
+	return (
+		<Navbar
+			color='light'
+			light
+			expand='md'
+			fixed='top'
+			className={styles.appNavbar}
+		>
+			<Container>
+				<NavbarBrand href='/' className={styles.navBrand}>
+					<span className='primary-text'>&lt;&#x0002F;</span>
+					<span className={styles.name}>crom</span>
+					<span className='text-primary'>&gt;</span>
+				</NavbarBrand>
+				<NavbarToggler onClick={() => toggle(!isOpen)} />
+				<Collapse isOpen={isOpen} navbar>
+					<Nav className='ml-auto' navbar>
+						<NavItem className='ml-4'>
+							<NavLink href='#home'>Home</NavLink>
+						</NavItem>
+						<NavItem className='ml-4'>
+							<NavLink href='#background'>Background</NavLink>
+						</NavItem>
+						<NavItem className='ml-4'>
+							<NavLink href='#skills'>Skills</NavLink>
+						</NavItem>
+						<NavItem className='ml-4'>
+							<NavLink href='#experiences'>Experiences</NavLink>
+						</NavItem>
+						<NavItem className='ml-4'>
+							<NavLink href='#projects'>Projects</NavLink>
+						</NavItem>
+					</Nav>
+				</Collapse>
+			</Container>
+		</Navbar>
 	);
 };
 
-export default Navbar;
+export default AppNavbar;

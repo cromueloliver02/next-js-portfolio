@@ -1,5 +1,5 @@
 {
-	"briefBackground": "I'm <span style='font-family: Apercu Bold, sans-serif;'>Cromuel Barut</span>, a web developer during the day and at the same time, a 3rd year college IT student during the night. I love researching, solving programming problems, learning technologies and I enjoy coding challenges.",
+	"briefBackground": "I'm <span style='font-family: Apercu Bold, sans-serif;'>Cromuel Barut</span>, a web developer during the day and at the same time, a 3rd year college IT student during the night(Mr. Magdaleno). I love researching, solving programming problems, learning technologies and I enjoy coding challenges.",
 	"background": [
 		"I&apos;m currently enrolled at <a href='https://www.informatics.edu.ph/' target='_blank' className='text-link'>Informatics Baguio</a> to explore my passion in Information Technology. From here, I learned the concepts of programming and became a self-taught student to pursue a career in web development.",
 		"As a web developer, learning something new is my hobby, and I always make myself motivated and productive every day. I enjoy exploring technologies, libraries, tricks, techniques, and best practices to build my projects to run efficiently with beautiful, readable, clean code. I always make myself better than yesterday.",
@@ -31,6 +31,14 @@
 				"VS Code",
 				"GitKraken"
 			]
+		}
+	],
+	"experiences": [
+		{
+			"company": null,
+			"position": "Web Developer",
+			"duration": "February 2021 - present",
+			"role": " Currently, I work as a junior developer at a certain company, my role is to take easy to moderate tasks and sometimes hard task, bug fixing(my favorite), improve myself every day to be capable of taking much harder tasks, read the existing code bases of the company and learn a lot about what technologies does the dev team of the company uses. So far, for the past three months, I've worked at the company, I've contributed at least 5 projects."
 		}
 	],
 	"projects": [
