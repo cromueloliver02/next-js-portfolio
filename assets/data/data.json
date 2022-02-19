@@ -8,7 +8,7 @@
 	"skills": [
 		{
 			"skillCategory": "languages",
-			"skillItems": ["JavaScript (ES5 & ES6+)", "Node JS", "HTML5", "CSS3"]
+			"skillItems": ["JavaScript", "Dart", "Node JS", "HTML", "CSS"]
 		},
 		{
 			"skillCategory": "frameworks",
@@ -16,6 +16,7 @@
 				"React JS",
 				"Next JS",
 				"Express JS",
+				"Flutter",
 				"Ant Design",
 				"Bootstrap",
 				"Reactstrap"

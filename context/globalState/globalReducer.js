@@ -1,6 +1,6 @@
 import { CANCEL_LOADING } from '../types';
 
-export default (state, { type }) => {
+const reducer = (state, { type }) => {
 	switch (type) {
 		case CANCEL_LOADING:
 			return {
@@ -11,3 +11,5 @@ export default (state, { type }) => {
 			return state;
 	}
 };
+
+export default reducer;
