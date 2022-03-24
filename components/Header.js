@@ -14,10 +14,10 @@ const Header = () => {
 						dangerouslySetInnerHTML={{ __html: briefBackground }}
 					/>
 
-					<h5 className='mt-5'>
+					{/* <h5 className='mt-5'>
 						Get in touch 👉{' '}
 						<span className='text-email'>rbeast238@gmail.com</span>
-					</h5>
+					</h5> */}
 				</div>
 			</div>
 		</header>
