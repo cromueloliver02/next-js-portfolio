@@ -18,33 +18,17 @@ const ExperienceItem = ({
 			<p className='mb-1'>
 				<strong>Roles</strong>:
 			</p>
-			<ul class='list-group list-group-flush mb-4'>
+			<ul>
 				{roles.map(role => (
-					<li class='list-group-item'>{role}</li>
+					<li>{role}</li>
 				))}
 			</ul>
 			<p className='mb-1'>
 				<strong>Company Projects</strong>:
 			</p>
-			<ul class='list-group list-group-flush'>
+			<ul>
 				{projects.map(project => (
-					<li class='list-group-item'>
-						<div className='d-flex justify-content-between'>
-							<span>{project.name}</span>
-							{project.url && (
-								<span>
-									<a
-										href={project.url}
-										target='_blank'
-										rel='noopener noreferrer'
-										className='btn btn-light btn-sm'
-									>
-										Visit site
-									</a>
-								</span>
-							)}
-						</div>
-					</li>
+					<li>{project}</li>
 				))}
 			</ul>
 		</div>

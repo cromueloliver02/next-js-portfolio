@@ -3,10 +3,22 @@
 	"background": [
 		"As a web developer, learning something new is my hobby, and I always make myself motivated and productive every day. I enjoy exploring technologies, libraries, tricks, techniques, and best practices to build my projects to run efficiently with beautiful, readable, clean code. I always make myself better than yesterday."
 	],
+	"keyBackgrounds": [
+		"Fast learner",
+		"Passionate on learning new skills and technologies",
+		"Eager to grow"
+	],
 	"skills": [
 		{
 			"skillCategory": "languages",
-			"skillItems": ["JavaScript", "Dart", "Node JS", "HTML", "CSS"]
+			"skillItems": [
+				"JavaScript",
+				"TypeScript",
+				"Dart",
+				"Node JS",
+				"HTML",
+				"CSS"
+			]
 		},
 		{
 			"skillCategory": "frameworks",
@@ -23,12 +35,13 @@
 		{
 			"skillCategory": "tools",
 			"skillItems": [
+				"MongoDB",
+				"MongoDB Atlas",
 				"Git & Github",
+				"VS Code",
 				"Postman",
 				"Chrome DevTools",
-				"Adobe Photoshop",
-				"VS Code",
-				"GitKraken"
+				"Adobe Photoshop"
 			]
 		}
 	],
@@ -38,20 +51,19 @@
 			"position": "Web Developer",
 			"duration": "February 2021 - Present",
 			"roles": [
-				"Created web app and mobile app to meet the clients' requirements",
-				"Problem-solving, refactoring and converting business logic into codes",
-				"Analyzed complex data structures to create database and created scripts to programmatically upload huge amount of data",
-				"Tested apps, fixed bugs/errors, added features and maintained existing softwares",
-				"Managed a team project and observed meetings with the clients"
+				"Created web apps and mobile app to meet the clients' requirements.",
+				"Problem-solving, refactoring and converting business logic into codes.",
+				"Constructed scripts to programmatically upload huge amount of data to database.",
+				"Tested apps, fixed bugs/errors, added features and maintained existing company softwares.",
+				"Managed a team project and observed meetings with the clients.",
+				"Reviewed, cleaned and improved commits and pull requests of my team members before merging to master branch."
 			],
 			"projects": [
-				{ "name": "Abena Data Admin and Mobile", "url": null },
-				{ "name": "Prosegur", "url": null },
-				{
-					"name": "My Kitchen Worktops Surfaces",
-					"url": "https://www.mykitchenworktop.co.uk/"
-				},
-				{ "name": "Volenday Website", "url": "https://www.volenday.com/" }
+				"OX-ON Product Selector Mobile App",
+				"Abena Data Admin",
+				"Prosegur Leasing Service System",
+				"My Kitchen Worktops Surfaces E-commerce Website",
+				"Volenday Website"
 			]
 		}
 	],

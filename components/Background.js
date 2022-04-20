@@ -1,4 +1,4 @@
-const background = require('../assets/data/data.json').background;
+const { background, keyBackgrounds } = require('../assets/data/data.json');
 
 const Background = () => {
 	return (
@@ -21,6 +21,11 @@ const Background = () => {
 								dangerouslySetInnerHTML={{ __html: paragraph }}
 							/>
 						))}
+						<ul>
+							{keyBackgrounds.map(keyBackground => (
+								<li>{keyBackground}</li>
+							))}
+						</ul>
 					</div>
 				</div>
 			</div>
