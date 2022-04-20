@@ -9,8 +9,18 @@ import Experiences from '../components/experiences/Experiences';
 import Projects from '../components/projects/Projects';
 import globalContext from '../context/globalState/globalContext';
 
-const Home = () => {
+const data = require('../assets/data/data.json');
+
+const Home = props => {
 	const { loading, cancelLoading } = useContext(globalContext);
+	const {
+		briefBackground,
+		background,
+		keyBackgrounds,
+		skills,
+		experiences,
+		projects
+	} = props;
 
 	useEffect(() => {
 		// scroll to top
@@ -40,12 +50,17 @@ const Home = () => {
 
 			{loading && <Spinner />}
 
-			<Header />
-			<Background />
-			<Skills />
-			<Experiences />
-			<Projects />
+			<Header briefBackground={briefBackground} />
+			<Background background={background} keyBackgrounds={keyBackgrounds} />
+			<Skills skills={skills} />
+			<Experiences experiences={experiences} />
+			<Projects projects={projects} />
 		</Fragment>
 	);
 };
+
+export async function getStaticProps(ctx) {
+	return { props: data };
+}
+
 export default Home;

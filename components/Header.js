@@ -1,8 +1,6 @@
-const { briefBackground } = require('../assets/data/data.json');
-
 import styles from '../styles/Header.module.css';
 
-const Header = () => {
+const Header = ({ briefBackground }) => {
 	return (
 		<header id='home' className='bg-light'>
 			<div className='container'>

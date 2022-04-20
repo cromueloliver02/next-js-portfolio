@@ -1,6 +1,4 @@
-const { background, keyBackgrounds } = require('../assets/data/data.json');
-
-const Background = () => {
+const Background = ({ background, keyBackgrounds }) => {
 	return (
 		<section
 			id='background'

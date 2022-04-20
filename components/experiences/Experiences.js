@@ -1,8 +1,6 @@
 import ExperienceItem from '../experiences/ExperienceItem';
 
-const { experiences } = require('../../assets/data/data.json');
-
-const Skills = () => {
+const Skills = ({ experiences }) => {
 	return (
 		<section id='experiences' className='experiences bg-light py-5'>
 			<div className='container py-5'>

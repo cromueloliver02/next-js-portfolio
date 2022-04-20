@@ -1,8 +1,6 @@
 import ProjectItem from './ProjectItem';
 
-const { projects } = require('../../assets/data/data.json');
-
-const Projects = () => {
+const Projects = ({ projects }) => {
 	return (
 		<section id='projects' className='projects py-5'>
 			<div className='container py-5'>

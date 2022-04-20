@@ -1,8 +1,6 @@
 import SkillItem from './SkillItem';
 
-const { skills } = require('../../assets/data/data.json');
-
-const Skills = () => {
+const Skills = ({ skills }) => {
 	return (
 		<section id='skills' className='skills py-5'>
 			<div className='container py-5'>
