@@ -53,7 +53,7 @@ const Home = props => {
 			<Header briefBackground={briefBackground} />
 			<Background background={background} keyBackgrounds={keyBackgrounds} />
 			<Skills skills={skills} />
-			<Experiences experiences={experiences} />
+			{/* <Experiences experiences={experiences} /> */}
 			<Projects projects={projects} />
 		</Fragment>
 	);
