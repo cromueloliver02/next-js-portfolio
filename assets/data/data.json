@@ -1,20 +1,23 @@
 {
 	"briefBackground": "I'm <span style='font-family: Apercu Bold, sans-serif;'>Cromuel Barut</span>, I love researching, solving programming problems, learning technologies and I enjoy coding challenges.",
 	"background": [
-		"As a web developer, learning something new is my hobby, and I always make myself motivated and productive every day. I enjoy exploring technologies, libraries, tricks, techniques, and best practices to build my projects to run efficiently with beautiful, readable, clean code. I always make myself better than yesterday."
+		"As a web and mobile application developer, learning something new is my hobby for as I love growth and changes. I always make myself motivated and productive every day. I enjoy exploring technologies, libraries, tricks, techniques, and best practices to build my projects to run efficiently with beautiful, readable, clean code. I always make myself better than yesterday."
 	],
 	"keyBackgrounds": [
 		"Fast learner",
-		"Passionate on learning new skills and technologies",
-		"Eager to grow"
+		"Good analytical skill",
+		"Eager to grow",
+		"Embraces changes",
+		"Constantly learning",
+		"Passionate on learning new skills and technologies"
 	],
 	"skills": [
 		{
 			"skillCategory": "languages",
 			"skillItems": [
+				"Dart",
 				"JavaScript",
 				"TypeScript",
-				"Dart",
 				"Node JS",
 				"HTML",
 				"CSS"
@@ -23,10 +26,11 @@
 		{
 			"skillCategory": "frameworks",
 			"skillItems": [
+				"Flutter",
+				"flutter_bloc",
 				"React JS",
 				"Next JS",
 				"Express JS",
-				"Flutter",
 				"Ant Design",
 				"Bootstrap",
 				"Reactstrap"
@@ -35,13 +39,23 @@
 		{
 			"skillCategory": "tools",
 			"skillItems": [
-				"MongoDB",
-				"MongoDB Atlas",
+				"Firebase",
 				"Git & Github",
 				"VS Code",
+				"MongoDB",
+				"MongoDB Atlas",
 				"Postman",
 				"Chrome DevTools",
 				"Adobe Photoshop"
+			]
+		},
+		{
+			"skillCategory": "others",
+			"skillItems": [
+				"Flutter Bloc",
+				"Provider",
+				"TDD + Clean Architecture",
+				"MVVM Design Pattern"
 			]
 		}
 	],
