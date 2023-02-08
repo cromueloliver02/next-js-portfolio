@@ -27,7 +27,6 @@
 			"skillCategory": "frameworks",
 			"skillItems": [
 				"Flutter",
-				"flutter_bloc",
 				"React JS",
 				"Next JS",
 				"Express JS",
@@ -56,28 +55,6 @@
 				"Provider",
 				"TDD + Clean Architecture",
 				"MVVM Design Pattern"
-			]
-		}
-	],
-	"experiences": [
-		{
-			"company": "Volenday Inc.",
-			"position": "Web Developer",
-			"duration": "February 2021 - Present",
-			"roles": [
-				"Created web apps and mobile app to meet the clients' requirements.",
-				"Problem-solving, refactoring and converting business logic into codes.",
-				"Constructed scripts to programmatically upload huge amount of data to database.",
-				"Tested apps, fixed bugs/errors, added features and maintained existing company softwares.",
-				"Managed a team project and observed meetings with the clients.",
-				"Reviewed, cleaned and improved commits and pull requests of my team members before merging to master branch."
-			],
-			"projects": [
-				"OX-ON Product Selector Mobile App",
-				"Abena Data Admin",
-				"Prosegur Leasing Service System",
-				"My Kitchen Worktops Surfaces E-commerce Website",
-				"Volenday Website"
 			]
 		}
 	],
