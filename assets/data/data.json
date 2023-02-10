@@ -50,12 +50,7 @@
 		},
 		{
 			"skillCategory": "others",
-			"skillItems": [
-				"Flutter Bloc",
-				"Provider",
-				"BLoC Pattern Architecture",
-				"MVVM Design Pattern"
-			]
+			"skillItems": ["Flutter Bloc", "Provider", "BLoC Pattern Architecture"]
 		}
 	],
 	"projects": [
