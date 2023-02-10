@@ -53,7 +53,7 @@
 			"skillItems": [
 				"Flutter Bloc",
 				"Provider",
-				"TDD + Clean Architecture",
+				"BLoC Pattern Architecture",
 				"MVVM Design Pattern"
 			]
 		}
